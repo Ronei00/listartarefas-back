@@ -4,8 +4,8 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>C:\PUBLISHAPI</_PublishTargetUrl>
-    <History>True|2024-11-09T17:06:12.6482086Z;True|2024-11-09T13:12:28.0489784-03:00;True|2024-11-08T15:57:46.0126501-03:00;</History>
+    <_PublishTargetUrl>C:\Projetos\ListadeTarefas\Back\WebApiTarefas\publish</_PublishTargetUrl>
+    <History>True|2024-11-09T18:23:24.9071251Z;True|2024-11-09T14:06:12.6482086-03:00;True|2024-11-09T13:12:28.0489784-03:00;True|2024-11-08T15:57:46.0126501-03:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>
