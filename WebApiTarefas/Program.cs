@@ -25,13 +25,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors(options =>
-{
-    options.WithOrigins("listatarefas-cfeyb9ahc4crfueu.canadacentral-01.azurewebsites.net");
-    options.AllowAnyMethod();
-    options.AllowAnyHeader();
-});
-
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
