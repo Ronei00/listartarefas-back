@@ -27,7 +27,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors(options =>
 {
-    options.WithOrigins("listatarefas-cfeyb9ahc4crfueu.canadacentral-01.azurewebsites.net");
+    options.WithOrigins("https://webapitarefas.azurewebsites.net/");
     options.AllowAnyMethod();
     options.AllowAnyHeader();
 });
