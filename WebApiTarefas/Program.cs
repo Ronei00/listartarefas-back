@@ -27,12 +27,12 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors(options =>
 {
-    options.WithOrigins("http://localhost:3000");
+    options.WithOrigins("listatarefas-cfeyb9ahc4crfueu.canadacentral-01.azurewebsites.net");
     options.AllowAnyMethod();
     options.AllowAnyHeader();
 });
 
-//app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
